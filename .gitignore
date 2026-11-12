@@ -1,0 +1,66 @@
+# Solo backend, frontend y las reglas de Git en la raiz.
+/*
+!/.gitignore
+!/backend/
+!/frontend/
+
+# Dependencias y entornos de Python.
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Dependencias y archivos generados del frontend.
+node_modules/
+dist/
+dist-ssr/
+build/
+.vite/
+.parcel-cache/
+.cache/
+*.tsbuildinfo
+
+# Cobertura de pruebas.
+coverage/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Configuracion privada; las plantillas si se pueden versionar.
+.env
+.env.*
+.envrc
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Archivos temporales, registros y configuracion del equipo.
+logs/
+*.log
+*.pid
+*.pid.lock
+*.tmp
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini

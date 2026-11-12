@@ -1,0 +1,5 @@
+# Backend de "Capa a capa". La red neuronal solo necesita NumPy;
+# FastAPI y Uvicorn son el servidor web que la conecta con el navegador.
+numpy>=1.24
+fastapi>=0.110
+uvicorn[standard]>=0.29

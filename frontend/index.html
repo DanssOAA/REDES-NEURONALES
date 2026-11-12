@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Una red neuronal que crece de una capa a varias y aprende en directo, vista en 3D." />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect x=%2210%22 y=%222%22 width=%2220%22 height=%2220%22 fill=%22%23E8590C%22/><rect x=%226%22 y=%226%22 width=%2220%22 height=%2220%22 fill=%22%231E5BD8%22/><rect x=%222%22 y=%2210%22 width=%2220%22 height=%2220%22 fill=%22%231B2440%22/></svg>" />
+    <title>Capa a capa: redes neuronales en 3D</title>
+    <script>
+      // Aplica el tema guardado antes de pintar, para que no parpadee.
+      try {
+        var t = localStorage.getItem('capa-a-capa:tema');
+        if (t === 'claro' || t === 'oscuro') document.documentElement.dataset.tema = t;
+        if (localStorage.getItem('capa-a-capa:texto') === 'grande') document.documentElement.dataset.texto = 'grande';
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="raiz"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
